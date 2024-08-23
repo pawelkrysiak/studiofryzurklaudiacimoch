@@ -1,6 +1,48 @@
 title: Studio Fryzur Klaudia Cimoch
 email: klaudia.boryss@gmail.com
-# description: >-
-#  Write an awesome description for your new site here. You can edit this
-#  line in _config.yml. It will appear in your document head meta (for
-#  Google search results) and in your feed.xml site description.
+gallery: ["1", "2", "3", "4"]
+services: 
+  - name: "Strzyżenia"
+    service:
+      - name: "Strzyżenie damskie"
+        price: "100,00 zł+"
+      - name: "Strzyżenie męskie"
+        price: "40,00 zł+"
+      - name: "Strzyżenie senior"
+        price: "60,00 zł+"
+      - name: "Strzyżenie dziecięce"
+        price: "50,00 zł+"
+  - name: "Koloryzacje"
+    service:
+      - name: "Kolor jednolity"
+        price: "200,00 zł+"
+      - name: "Money Piece"
+        price: "200,00 zł+"
+      - name: "Kolor z refleksami"
+        price: "280,00 zł+"
+      - name: "Front Blond"
+        price: "300,00 zł+"
+      - name: "Global Blond"
+        price: "300,00 zł+"
+      - name: "Dekoloryzacja"
+        price: "300,00 zł+"
+      - name: "Baleyage"
+        price: "350,00 zł+"
+      - name: "Sombre / Ombre"
+        price: "400,00 zł+"
+  - name: "Modelowanie"
+    service:
+      - name: "Modelowanie / kręcenie włosów"
+        price: "100,00 zł+"
+      - name: "Fale / loki (bez upinania)"
+        price: "70,00 zł+"
+      - name: "Warkocze / plecionki"
+        price: "50,00 zł+"
+  - name: "Pielęgnacja"
+    service:
+      - name: "Botox"
+        price: "280,00 zł+"
+      - name: "OXO Organic (permanentne prostowanie włosów)"
+        price: "700,00 zł+"
+      
+

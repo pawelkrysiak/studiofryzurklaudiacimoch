@@ -1,0 +1,38 @@
+<section id="prices">
+    <div class="container">
+
+      <div class="section-header">
+        <h3 class="section-title">Cennik usług</h3>
+        <h6 class="text-center">Akceptujemy wyłącznie płatność gotówką</h6>
+        <h6 class="text-center">Ceny są zależne od długości i gęstości włosów</h6>
+        <span class="section-divider"></span>
+      </div>
+
+      <div class="row">
+        {% for group in site.services %}
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+          <div class="wow fadeInDown">
+            <h3>{{group.name}}</h3>
+          </div>
+        </div>
+        <div class="col-lg-2"></div>
+
+        {% for item in group.service %}
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+          <div class="box wow fadeInLeft">
+            <div class="row service">
+              <h4 class="col-8">{{item.name}}</h4>
+              <div class="col-4">
+                <div class="price">{{item.price}}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2"></div>
+        {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+</section>

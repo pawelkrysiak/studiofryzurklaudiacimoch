@@ -1,0 +1,22 @@
+<section id="gallery">
+<div class="container-fluid">
+    <div class="section-header">
+    <h3 class="section-title">Galeria</h3>
+    <span class="section-divider"></span>
+    </div>
+    <div class="row no-gutters">
+    {% for image in site.gallery %}
+        <div class="col-lg-6 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+            <a href="img/{{image}}.jpg" data-gall="portfolioGallery" class="venobox">
+                <img src="img/{{image}}.jpg"
+                    srcset="img/{{image}}.jpg 2048w, img/{{image}}_small.jpg 768w"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    alt="" loading="lazy">
+            </a>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+</div>
+</section>
